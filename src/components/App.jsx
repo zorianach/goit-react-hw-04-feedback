@@ -15,11 +15,11 @@ import Notification from "./Notification/Notification";
       case 'good':
         setGood(prevState => prevState + 1);
         break;
+        case 'neutral':
+          setNeutral(prevState => prevState + 1);
+          break;
       case 'bad':
         setBad(prevState => prevState + 1);
-        break;
-      case 'neutral':
-        setNeutral(prevState => prevState + 1);
         break;
       default:
         return;
